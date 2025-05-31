@@ -1,0 +1,14 @@
+medusa-deploy/
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   ├── vpc.tf
+│   ├── ecs.tf
+│   ├── rds.tf
+│   ├── redis.tf
+│   ├── alb.tf
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── medusa-backend/      <-- your Medusa app folder
